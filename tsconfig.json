@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "esModuleInterop": true,
+        "baseUrl": ".",
+        "noEmit": true,
+        "paths": {
+            "@/*": ["./client/*"],
+        },
+    },
+    "include": ["client/**/*.mjs"],
+    "exclude": ["node_modules"],
+}

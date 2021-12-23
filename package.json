@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "esbuild": "0.14.3",
+    "esbuild-clean-plugin": "latest",
+    "esbuild-plugin-vue3": "latest",
+    "esbuild-sass-plugin": "latest",
+    "pug": "latest",
+    "tiny-glob": "^0.2.9",
+    "vue": "^3.2.26",
+    "vue-router": "^4.0.12"
+  },
+  "packageManager": "yarn@3.1.1"
+}
