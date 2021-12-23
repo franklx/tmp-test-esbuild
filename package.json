@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "esbuild": "0.14.3",
+    "esbuild": "0.14.8",
     "esbuild-clean-plugin": "latest",
     "esbuild-plugin-vue3": "latest",
     "esbuild-sass-plugin": "latest",
