@@ -6,12 +6,12 @@ div
 
 <script setup>
 import { onMounted } from "@vue/runtime-core"
-import { ref } from "@vue/reactivity"
+//import { ref } from "@vue/reactivity"
 
-const demodata = ref('')
+const demodata = $ref('')
 
 onMounted(() => {
-    demodata.value = "Hello World!"
+    demodata = "Hello World!"
 })
 
 </script>

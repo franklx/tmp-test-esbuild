@@ -17,6 +17,7 @@ const is_devel = true;
             vuePlugin({
                 enableOptionsApi: true,
                 enableDevTools: is_devel,
+                reactivityTransform: true,
             }),
             //pnpPlugin(),
             //cleanPlugin(),
