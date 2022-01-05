@@ -4,12 +4,11 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "esbuild": "0.14.8",
-    "esbuild-clean-plugin": "latest",
-    "esbuild-plugin-vue3": "latest",
+    "@franklx/esbuild-plugin-vue3": "file:../../_FOREIGN_/javascript/esbuild-plugin-vue3",
+    "esbuild": "0.14.10",
     "esbuild-sass-plugin": "latest",
     "pug": "latest",
-    "tiny-glob": "^0.2.9",
+    "tiny-glob": "latest",
     "vue": "^3.2.26",
     "vue-router": "^4.0.12"
   },

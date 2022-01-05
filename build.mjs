@@ -2,9 +2,8 @@ import glob from "tiny-glob"
 import path from "path"
 
 import { build } from "esbuild"
-import { cleanPlugin } from "esbuild-clean-plugin"
 import { sassPlugin } from "esbuild-sass-plugin"
-import vuePlugin from "esbuild-plugin-vue3"
+import vuePlugin from "@franklx/esbuild-plugin-vue3"
 
 const is_devel = true;
 
@@ -20,7 +19,7 @@ const is_devel = true;
                 enableDevTools: is_devel,
             }),
             //pnpPlugin(),
-            cleanPlugin(),
+            //cleanPlugin(),
         ],
         loader: {
             ".gif": "file",
