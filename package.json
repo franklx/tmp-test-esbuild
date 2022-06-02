@@ -5,12 +5,12 @@
   "main": "index.js",
   "dependencies": {
     "@franklx/esbuild-plugin-vue3": "file:../../_FOREIGN_/javascript/esbuild-plugin-vue3",
-    "esbuild": "0.14.10",
+    "esbuild": "latest",
     "esbuild-sass-plugin": "latest",
     "pug": "latest",
     "tiny-glob": "latest",
-    "vue": "^3.2.26",
-    "vue-router": "^4.0.12"
+    "vue": "latest",
+    "vue-router": "latest"
   },
   "packageManager": "yarn@3.1.1"
 }
