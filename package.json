@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@franklx/esbuild-plugin-vue3": "file:../../_FOREIGN_/javascript/esbuild-plugin-vue3",
+    "@franklx/esbuild-plugin-vue3": "latest",
     "esbuild": "latest",
     "esbuild-sass-plugin": "latest",
+    "primeflex": "^3.2.1",
     "pug": "latest",
+    "sass": "^1.55.0",
     "tiny-glob": "latest",
     "vue": "latest",
     "vue-router": "latest"
